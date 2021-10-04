@@ -1,0 +1,20 @@
+@import "sass/components/loader";
+// Variables
+@import "sass/utils/variables";
+@import "sass/utils/break-points";
+@import "sass/utils/mixins";
+@import "sass/utils/animation";
+// Base
+@import "sass/Base/reset";
+
+// layouts
+@import "sass/layouts/container";
+// components
+@import "sass/components/button";
+@import "sass/components/heart";
+// Pages
+@import "sass/pages/header";
+@import "sass/pages/hero";
+@import "sass/pages/main";
+@import "sass/pages/menu";
+@import "sass/pages/footer";

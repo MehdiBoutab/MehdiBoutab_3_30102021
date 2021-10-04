@@ -1,0 +1,49 @@
+@import "../utils/mixins";
+// Base
+.footer {
+  background-color: #2c423d;
+  padding: 18px 0px 18px 24px;
+  margin-top: -23px;
+  @include tablet{
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include desktop {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__title {
+    font-size: 20px;
+    font-family: "shrikhand";
+    color: white;
+  }
+  &__content {
+    margin-top: 15px;
+    @include desktop {
+      display: flex;
+      margin-top: 4px;
+    }
+    a {
+      color: white;
+      transition: color 0.2s ease-in-out;
+      &:hover {
+        color: $primaire;
+      }
+    }
+    &__subtitle {
+      margin-bottom: 8px;
+      @include desktop {
+        padding-right: 30px;
+      }
+    }
+    .fas {
+      margin-right: 10px;
+      color: white;
+    }
+    .icon {
+      font-size: 10px;
+    }
+  }
+}
