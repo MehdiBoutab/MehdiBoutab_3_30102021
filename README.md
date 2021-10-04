@@ -5,7 +5,7 @@
 Troisième projet du parcours "Développeur web" chez OpenClassroom. L'objectif d'intégrer puis de dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass
 
 ## Visualiser le site
-Le code a été versionner sur GIT et déployé sur GITHUB [clique ici](https://mehdiboutab.github.io/Openclassroom-Projet-3-OhMyFood)
+Le code a été versionner sur GIT et déployé sur GITHUB [clique ici](https://mehdiboutab.github.io/OpenClassroom-Projet-3-OhMyFood/)
 
 ## Technologies, logiciels et langages utilisés
 - Visual Studio Code
