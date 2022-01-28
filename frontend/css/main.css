@@ -1,73 +1,27 @@
-@-webkit-keyframes itemAppear {
-  0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
 @keyframes itemAppear {
   0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
-@-webkit-keyframes validation {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: scale(1);
   }
 }
 
 @keyframes validation {
   from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@-webkit-keyframes loader__rotate {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes loader__rotate {
   from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@-webkit-keyframes loader {
-  100% {
-    opacity: 0;
-    z-index: -10;
+    transform: rotate(360deg);
   }
 }
 
@@ -79,48 +33,39 @@
 }
 
 .delay-0 {
-  -webkit-animation-delay: 0s !important;
-          animation-delay: 0s !important;
+  animation-delay: 0s !important;
 }
 
 .delay-1 {
-  -webkit-animation-delay: 0.1s !important;
-          animation-delay: 0.1s !important;
+  animation-delay: 0.1s !important;
 }
 
 .delay-2 {
-  -webkit-animation-delay: 0.2s !important;
-          animation-delay: 0.2s !important;
+  animation-delay: 0.2s !important;
 }
 
 .delay-3 {
-  -webkit-animation-delay: 0.3s !important;
-          animation-delay: 0.3s !important;
+  animation-delay: 0.3s !important;
 }
 
 .delay-4 {
-  -webkit-animation-delay: 0.4s !important;
-          animation-delay: 0.4s !important;
+  animation-delay: 0.4s !important;
 }
 
 .delay-5 {
-  -webkit-animation-delay: 0.5s !important;
-          animation-delay: 0.5s !important;
+  animation-delay: 0.5s !important;
 }
 
 .delay-6 {
-  -webkit-animation-delay: 0.6s !important;
-          animation-delay: 0.6s !important;
+  animation-delay: 0.6s !important;
 }
 
 .delay-7 {
-  -webkit-animation-delay: 0.7s !important;
-          animation-delay: 0.7s !important;
+  animation-delay: 0.7s !important;
 }
 
 .delay-8 {
-  -webkit-animation-delay: 0.8s !important;
-          animation-delay: 0.8s !important;
+  animation-delay: 0.8s !important;
 }
 
 .loader {
@@ -131,62 +76,45 @@
   top: 0;
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 1000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-animation: loader 0.01s;
-          animation: loader 0.01s;
-  -webkit-animation-delay: 1.75s;
-          animation-delay: 1.75s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  align-items: center;
+  justify-content: center;
+  animation: loader 0.01s;
+  animation-delay: 1.75s;
+  animation-fill-mode: both;
 }
 
 .loader .fas {
   color: #9356dc;
   font-size: 5rem;
-  -webkit-animation: loader__rotate 3s;
-          animation: loader__rotate 3s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation: loader__rotate 3s;
+  animation-iteration-count: 1;
 }
 
 @keyframes itemAppear {
   0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 @keyframes validation {
   from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes loader__rotate {
   from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -198,48 +126,39 @@
 }
 
 .delay-0 {
-  -webkit-animation-delay: 0s !important;
-          animation-delay: 0s !important;
+  animation-delay: 0s !important;
 }
 
 .delay-1 {
-  -webkit-animation-delay: 0.1s !important;
-          animation-delay: 0.1s !important;
+  animation-delay: 0.1s !important;
 }
 
 .delay-2 {
-  -webkit-animation-delay: 0.2s !important;
-          animation-delay: 0.2s !important;
+  animation-delay: 0.2s !important;
 }
 
 .delay-3 {
-  -webkit-animation-delay: 0.3s !important;
-          animation-delay: 0.3s !important;
+  animation-delay: 0.3s !important;
 }
 
 .delay-4 {
-  -webkit-animation-delay: 0.4s !important;
-          animation-delay: 0.4s !important;
+  animation-delay: 0.4s !important;
 }
 
 .delay-5 {
-  -webkit-animation-delay: 0.5s !important;
-          animation-delay: 0.5s !important;
+  animation-delay: 0.5s !important;
 }
 
 .delay-6 {
-  -webkit-animation-delay: 0.6s !important;
-          animation-delay: 0.6s !important;
+  animation-delay: 0.6s !important;
 }
 
 .delay-7 {
-  -webkit-animation-delay: 0.7s !important;
-          animation-delay: 0.7s !important;
+  animation-delay: 0.7s !important;
 }
 
 .delay-8 {
-  -webkit-animation-delay: 0.8s !important;
-          animation-delay: 0.8s !important;
+  animation-delay: 0.8s !important;
 }
 
 *,
@@ -247,8 +166,7 @@
 *::after {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -274,7 +192,6 @@ a {
 
 .btn {
   padding: 16px 35px;
-  background: -webkit-gradient(linear, right top, left top, color-stop(5%, #9356dc), to(#ff79da));
   background: linear-gradient(to left, #9356dc 5%, #ff79da 100%);
   background-color: #9356dc;
   border-radius: 30px;
@@ -285,16 +202,12 @@ a {
   color: #ffff;
   font-size: 1.1rem;
   font-weight: 700;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .btn:hover {
   cursor: pointer;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition: 0.3s ease-in-out;
+  transform: scale(1.05);
   transition: 0.3s ease-in-out;
 }
 
@@ -304,15 +217,9 @@ a {
   background-color: transparent;
   border: transparent 0 solid;
   padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   position: relative;
   background-color: black;
@@ -325,35 +232,26 @@ a {
 .menu__btn::before {
   content: "";
   opacity: 0;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
   background: linear-gradient(0deg, #9356dc 0%, #ff79da 100%);
 }
 
 .menu__like {
-  -webkit-transition-duration: 0.25s;
-          transition-duration: 0.25s;
+  transition-duration: 0.25s;
   background-color: #f6f6f6;
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   mix-blend-mode: lighten;
 }
 
@@ -370,17 +268,14 @@ a {
 .header__logo {
   margin-top: 4px;
   padding: 8px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .header__location {
   padding: 1px;
   border-top: solid 1px #dddd;
   background-color: #eaeaea;
-  -webkit-box-shadow: 0px 2px 3px -2px #bebebe inset;
-          box-shadow: 0px 2px 3px -2px #bebebe inset;
+  box-shadow: 0px 2px 3px -2px #bebebe inset;
 }
 
 .header__location a {
@@ -403,16 +298,9 @@ a {
 }
 
 .hero {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   background-color: whitesmoke;
 }
@@ -437,8 +325,7 @@ a {
   max-height: 32rem;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 40vh;
 }
 
@@ -461,22 +348,15 @@ main .fonctionnements .step {
   width: 260px;
   height: auto;
   margin: 20px auto 20px auto;
-  -webkit-box-shadow: 0 5px 8px #0000002e;
-          box-shadow: 0 5px 8px #0000002e;
+  box-shadow: 0 5px 8px #0000002e;
 }
 
 main .fonctionnements .step__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding: 20px 0;
   margin-bottom: 15px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 main .fonctionnements .step__number {
@@ -504,7 +384,6 @@ main .fonctionnements .step__text {
 main .fonctionnements .step:hover {
   background-color: #e2caffe7;
   cursor: pointer;
-  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
@@ -529,8 +408,6 @@ main .restaurants__title {
 
 @media only screen and (min-width: 1025px) {
   main .restaurants .cards {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -549,8 +426,7 @@ main .restaurants .resto {
 
 @media only screen and (min-width: 1025px) {
   main .restaurants .resto {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: calc(33.3% - 10px);
     margin: 15px 15px 35px 15px;
   }
@@ -560,8 +436,7 @@ main .restaurants .resto__image img {
   width: 100%;
   border-radius: 14px 14px 0px 0px;
   height: 134px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 main .restaurants .resto__content {
@@ -616,22 +491,14 @@ main .restaurants .resto__heart .menu__like {
 
 .menu__header {
   padding: 1rem 2rem 0 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media only screen and (min-width: 1025px) {
   .menu__header {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
 }
 
@@ -648,16 +515,13 @@ main .restaurants .resto__heart .menu__like {
 }
 
 .menu .submenus {
-  display: -ms-grid;
   display: grid;
 }
 
 @media only screen and (min-width: 1025px) {
   .menu .submenus {
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: repeat(3, 1fr);
-    -webkit-column-gap: 1rem;
-            column-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
   }
 }
 
@@ -688,23 +552,16 @@ main .restaurants .resto__heart .menu__like {
 .menu .submenus .menuItem {
   background-color: white;
   padding: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   border-radius: 0.75rem;
   margin: 1rem 0;
-  -webkit-box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
-          box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
   overflow: hidden;
   cursor: pointer;
-  -webkit-animation: itemAppear 0.6s;
-          animation: itemAppear 0.6s;
-  -webkit-animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
-          animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-transform: scale(0);
-          transform: scale(0);
+  animation: itemAppear 0.6s;
+  animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
+  animation-fill-mode: both;
+  transform: scale(0);
   max-width: 100%;
 }
 
@@ -712,9 +569,7 @@ main .restaurants .resto__heart .menu__like {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden !important;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
 }
 
 .menu .submenus .menuItem__title {
@@ -733,15 +588,9 @@ main .restaurants .resto__heart .menu__like {
 
 .menu .submenus .menuItem__price {
   font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  justify-content: flex-end;
+  align-items: flex-end;
   padding-left: 0.5rem;
 }
 
@@ -749,37 +598,22 @@ main .restaurants .resto__heart .menu__like {
   background-color: #99e2d0;
   margin: -1rem -5rem -1rem 1rem;
   width: 4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
 }
 
 .menu .submenus .menuItem__wrapIcon {
   height: 1.6rem;
   width: 1.6rem;
   background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   border-radius: 100px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
 }
 
 .menu .submenus .menuItem__icon {
@@ -787,15 +621,9 @@ main .restaurants .resto__heart .menu__like {
 }
 
 .menu .wrapBtn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 0.75rem 0.5rem !important;
   width: 150px;
   margin-right: auto;
@@ -808,10 +636,8 @@ main .restaurants .resto__heart .menu__like {
 }
 
 .menuItem:hover .menuItem__wrapIcon {
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  -webkit-animation: validation 1400ms ease-in-out;
-          animation: validation 1400ms ease-in-out;
+  transform: rotate(0);
+  animation: validation 1400ms ease-in-out;
 }
 
 .footer {
@@ -831,11 +657,8 @@ main .restaurants .resto__heart .menu__like {
 
 @media only screen and (min-width: 1025px) {
   .footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
 }
 
@@ -851,8 +674,6 @@ main .restaurants .resto__heart .menu__like {
 
 @media only screen and (min-width: 1025px) {
   .footer__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin-top: 4px;
   }
@@ -860,7 +681,6 @@ main .restaurants .resto__heart .menu__like {
 
 .footer__content a {
   color: white;
-  -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 
